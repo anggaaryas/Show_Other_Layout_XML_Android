@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        android:id="@+id/rl_testview"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:background="@android:drawable/screen_background_dark_transparent"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <ImageView android:layout_width="wrap_content"
+               android:id="@+id/iv_ico"
+               android:layout_height="wrap_content"
+               android:src="@drawable/ic_launcher_background"
+               android:layout_centerInParent="true"/>
+    <TextView android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+                android:text="Hooray!"
+    android:textSize="32sp"
+    android:textColor="@android:color/white"
+    android:layout_below="@id/iv_ico"
+    android:layout_centerHorizontal="true"
+    android:layout_marginTop="8dp"/>
+
+</RelativeLayout>
